@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    box-sizing: content-box;
+}
+
+body {
+    margin: 0 15vw;
+}
+
+input {
+    height: 1.4em;
+    padding: .7em;
+
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid hsl(20, 0%, 0%);
+
+    color: hsl(20, 0%, 70%);
+}
+
+header {
+    padding: 10vw 0;
+    margin: 0 5vw;
+}
+
+.input-container {
+    margin: 16px;
+}
+
+#title {
+    font-size: 52px;
+
+    text-align: right;
+}
